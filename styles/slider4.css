@@ -1,0 +1,15 @@
+
+*{margin: 0;padding: 0}
+img{margin: 0;padding: 0}
+
+.window{width: 900px;margin: 20px auto;position: relative;overflow: hidden;}
+
+
+.slides{display: flex;align-items: flex-start;transition: all 0.3s}
+
+.btns{text-align: center;position: absolute;z-index:9;top:0;left:0;right:0;bottom:0;
+    margin:auto;width: 400px;height: 20px;margin-top: 370px;}
+.btns>span{width: 10px;height: 10px;background: #fff;border-radius: 50%;display: inline-block;
+    border: 1px solid #aaa;margin-left: 20px}
+
+.btns>span.active{border:1px solid #eee;background: transparent;}
